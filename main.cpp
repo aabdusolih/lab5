@@ -130,3 +130,56 @@ main(){
     }
     return 0;
 }*/
+
+/* problem 3
+int main(){
+    char ch;
+    int counter;
+    for (ch = 'A'; ch <= 'Z'; ch++){
+        if (counter < 4){
+        cout << ch << " ";
+        counter++;
+        }
+        else{
+        cout << ch << " " << endl;
+        counter = 0;
+        }
+    }
+    return 0;
+}*/
+
+/*  problem 4
+int main(){
+    int n;
+    int factorial = 1;
+    cout << "Enter a  non-negative number: ";
+    cin >> n;
+    if (n < 0){
+        cout << "Factorial of negative number is not defined!" << endl;
+    }
+    else{
+        for (int i = n; i > 0; i--){
+        factorial = factorial * i;
+        }
+    }
+    cout << "The factorial of " << n << " is: " << factorial << endl;
+    return 0;
+}*/
+
+/*  problem 5
+int main(){
+    int classes, credits, totalCredits;
+    float gpa;
+    float total, avgGpa;
+    cout<<"Enter the number of classes: ";
+    cin>>classes;
+    for(int i=0;i<classes;i++){
+    cout<<"Enter credits first, and then gpa: ";
+    cin >> credits >> gpa;
+    total += credits * gpa;
+    totalCredits += credits;
+    }
+    avgGpa = total/totalCredits;
+    cout<<"Average gpa: "<<avgGpa<<endl;
+    return 0;
+}*/
